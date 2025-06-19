@@ -1,0 +1,645 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/gabelopez/.nvm/versions/io.js/v3.0.0/bin/iojs',
+1 verbose cli   '/Users/gabelopez/.nvm/versions/io.js/v3.0.0/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.13.3
+3 info using node@v3.0.0
+4 verbose readDependencies loading dependencies from /Users/gabelopez/Desktop/OdinProject/javascript-exercises/package.json
+5 verbose install where, deps [ '/Users/gabelopez/Desktop/OdinProject/javascript-exercises',
+5 verbose install   [ 'case-anything',
+5 verbose install     'eslint',
+5 verbose install     'eslint-config-airbnb-base',
+5 verbose install     'eslint-plugin-import',
+5 verbose install     'jest',
+5 verbose install     'jest-cli',
+5 verbose install     'plop' ] ]
+6 verbose install where, peers [ '/Users/gabelopez/Desktop/OdinProject/javascript-exercises',
+6 verbose install   [] ]
+7 verbose installManyTop reading for lifecycle /Users/gabelopez/Desktop/OdinProject/javascript-exercises/package.json
+8 info preinstall javascript-exercises@1.0.0
+9 verbose readDependencies loading dependencies from /Users/gabelopez/Desktop/OdinProject/javascript-exercises/package.json
+10 silly cache add args [ 'plop@^4.0.1', null ]
+11 verbose cache add spec plop@^4.0.1
+12 silly cache add parsed spec { raw: 'plop@^4.0.1',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'plop',
+12 silly cache add   rawSpec: '^4.0.1',
+12 silly cache add   spec: '>=4.0.1 <5.0.0',
+12 silly cache add   type: 'range' }
+13 silly addNamed plop@>=4.0.1 <5.0.0
+14 verbose addNamed ">=4.0.1 <5.0.0" is a valid semver range for plop
+15 silly addNameRange { name: 'plop', range: '>=4.0.1 <5.0.0', hasData: false }
+16 silly mapToRegistry name plop
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/plop
+20 verbose addNameRange registry:https://registry.npmjs.org/plop not in flight; fetching
+21 silly cache add args [ 'case-anything@^2.1.13', null ]
+22 verbose cache add spec case-anything@^2.1.13
+23 silly cache add parsed spec { raw: 'case-anything@^2.1.13',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'case-anything',
+23 silly cache add   rawSpec: '^2.1.13',
+23 silly cache add   spec: '>=2.1.13 <3.0.0',
+23 silly cache add   type: 'range' }
+24 silly addNamed case-anything@>=2.1.13 <3.0.0
+25 verbose addNamed ">=2.1.13 <3.0.0" is a valid semver range for case-anything
+26 silly addNameRange { name: 'case-anything',
+26 silly addNameRange   range: '>=2.1.13 <3.0.0',
+26 silly addNameRange   hasData: false }
+27 silly mapToRegistry name case-anything
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry uri https://registry.npmjs.org/case-anything
+31 verbose addNameRange registry:https://registry.npmjs.org/case-anything not in flight; fetching
+32 silly cache add args [ 'eslint@^8.47.0', null ]
+33 verbose cache add spec eslint@^8.47.0
+34 silly cache add parsed spec { raw: 'eslint@^8.47.0',
+34 silly cache add   scope: null,
+34 silly cache add   name: 'eslint',
+34 silly cache add   rawSpec: '^8.47.0',
+34 silly cache add   spec: '>=8.47.0 <9.0.0',
+34 silly cache add   type: 'range' }
+35 silly addNamed eslint@>=8.47.0 <9.0.0
+36 verbose addNamed ">=8.47.0 <9.0.0" is a valid semver range for eslint
+37 silly addNameRange { name: 'eslint', range: '>=8.47.0 <9.0.0', hasData: false }
+38 silly mapToRegistry name eslint
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry uri https://registry.npmjs.org/eslint
+42 verbose addNameRange registry:https://registry.npmjs.org/eslint not in flight; fetching
+43 silly cache add args [ 'eslint-config-airbnb-base@^15.0.0', null ]
+44 verbose cache add spec eslint-config-airbnb-base@^15.0.0
+45 silly cache add parsed spec { raw: 'eslint-config-airbnb-base@^15.0.0',
+45 silly cache add   scope: null,
+45 silly cache add   name: 'eslint-config-airbnb-base',
+45 silly cache add   rawSpec: '^15.0.0',
+45 silly cache add   spec: '>=15.0.0 <16.0.0',
+45 silly cache add   type: 'range' }
+46 silly addNamed eslint-config-airbnb-base@>=15.0.0 <16.0.0
+47 verbose addNamed ">=15.0.0 <16.0.0" is a valid semver range for eslint-config-airbnb-base
+48 silly addNameRange { name: 'eslint-config-airbnb-base',
+48 silly addNameRange   range: '>=15.0.0 <16.0.0',
+48 silly addNameRange   hasData: false }
+49 silly mapToRegistry name eslint-config-airbnb-base
+50 silly mapToRegistry using default registry
+51 silly mapToRegistry registry https://registry.npmjs.org/
+52 silly mapToRegistry uri https://registry.npmjs.org/eslint-config-airbnb-base
+53 verbose addNameRange registry:https://registry.npmjs.org/eslint-config-airbnb-base not in flight; fetching
+54 silly cache add args [ 'eslint-plugin-import@^2.28.1', null ]
+55 verbose cache add spec eslint-plugin-import@^2.28.1
+56 silly cache add parsed spec { raw: 'eslint-plugin-import@^2.28.1',
+56 silly cache add   scope: null,
+56 silly cache add   name: 'eslint-plugin-import',
+56 silly cache add   rawSpec: '^2.28.1',
+56 silly cache add   spec: '>=2.28.1 <3.0.0',
+56 silly cache add   type: 'range' }
+57 silly addNamed eslint-plugin-import@>=2.28.1 <3.0.0
+58 verbose addNamed ">=2.28.1 <3.0.0" is a valid semver range for eslint-plugin-import
+59 silly addNameRange { name: 'eslint-plugin-import',
+59 silly addNameRange   range: '>=2.28.1 <3.0.0',
+59 silly addNameRange   hasData: false }
+60 silly mapToRegistry name eslint-plugin-import
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-import
+64 verbose addNameRange registry:https://registry.npmjs.org/eslint-plugin-import not in flight; fetching
+65 silly cache add args [ 'jest@^29.6.4', null ]
+66 verbose cache add spec jest@^29.6.4
+67 silly cache add parsed spec { raw: 'jest@^29.6.4',
+67 silly cache add   scope: null,
+67 silly cache add   name: 'jest',
+67 silly cache add   rawSpec: '^29.6.4',
+67 silly cache add   spec: '>=29.6.4 <30.0.0',
+67 silly cache add   type: 'range' }
+68 silly addNamed jest@>=29.6.4 <30.0.0
+69 verbose addNamed ">=29.6.4 <30.0.0" is a valid semver range for jest
+70 silly addNameRange { name: 'jest', range: '>=29.6.4 <30.0.0', hasData: false }
+71 silly mapToRegistry name jest
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npmjs.org/
+74 silly mapToRegistry uri https://registry.npmjs.org/jest
+75 verbose addNameRange registry:https://registry.npmjs.org/jest not in flight; fetching
+76 silly cache add args [ 'jest-cli@^29.6.4', null ]
+77 verbose cache add spec jest-cli@^29.6.4
+78 silly cache add parsed spec { raw: 'jest-cli@^29.6.4',
+78 silly cache add   scope: null,
+78 silly cache add   name: 'jest-cli',
+78 silly cache add   rawSpec: '^29.6.4',
+78 silly cache add   spec: '>=29.6.4 <30.0.0',
+78 silly cache add   type: 'range' }
+79 silly addNamed jest-cli@>=29.6.4 <30.0.0
+80 verbose addNamed ">=29.6.4 <30.0.0" is a valid semver range for jest-cli
+81 silly addNameRange { name: 'jest-cli', range: '>=29.6.4 <30.0.0', hasData: false }
+82 silly mapToRegistry name jest-cli
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry uri https://registry.npmjs.org/jest-cli
+86 verbose addNameRange registry:https://registry.npmjs.org/jest-cli not in flight; fetching
+87 verbose request uri https://registry.npmjs.org/plop
+88 verbose request no auth needed
+89 info attempt registry request try #1 at 02:22:20
+90 verbose request id 1baf53cea41d521e
+91 verbose etag W/"39f1f8ed306181b4e306b7f65c51d85f"
+92 verbose lastModified Fri, 22 Dec 2023 22:37:57 GMT
+93 http request GET https://registry.npmjs.org/plop
+94 verbose request uri https://registry.npmjs.org/case-anything
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 02:22:20
+97 verbose etag W/"9df12858d97ce343dc8b4970eb52114d"
+98 verbose lastModified Wed, 19 Feb 2025 19:07:57 GMT
+99 http request GET https://registry.npmjs.org/case-anything
+100 verbose request uri https://registry.npmjs.org/eslint-config-airbnb-base
+101 verbose request no auth needed
+102 info attempt registry request try #1 at 02:22:20
+103 verbose etag W/"98451d77b75f135ddab596ca2876f7a1"
+104 verbose lastModified Fri, 08 Nov 2024 00:35:05 GMT
+105 http request GET https://registry.npmjs.org/eslint-config-airbnb-base
+106 verbose request uri https://registry.npmjs.org/eslint
+107 verbose request no auth needed
+108 info attempt registry request try #1 at 02:22:20
+109 verbose etag W/"4837ed50983373a1002beb3d51074df0"
+110 verbose lastModified Fri, 13 Jun 2025 17:33:12 GMT
+111 http request GET https://registry.npmjs.org/eslint
+112 verbose request uri https://registry.npmjs.org/eslint-plugin-import
+113 verbose request no auth needed
+114 info attempt registry request try #1 at 02:22:20
+115 verbose etag W/"59ec1704e7009eac45e19042249e642b"
+116 verbose lastModified Thu, 03 Oct 2024 10:28:54 GMT
+117 http request GET https://registry.npmjs.org/eslint-plugin-import
+118 verbose request uri https://registry.npmjs.org/jest
+119 verbose request no auth needed
+120 info attempt registry request try #1 at 02:22:20
+121 verbose etag W/"97e2d8f4bc262e5aab8333b60f824873"
+122 verbose lastModified Wed, 18 Jun 2025 22:32:01 GMT
+123 http request GET https://registry.npmjs.org/jest
+124 verbose request uri https://registry.npmjs.org/jest-cli
+125 verbose request no auth needed
+126 info attempt registry request try #1 at 02:22:20
+127 verbose etag W/"a44f39aba5b8dfa9e94815ecc36d2e85"
+128 verbose lastModified Wed, 18 Jun 2025 22:31:58 GMT
+129 http request GET https://registry.npmjs.org/jest-cli
+130 http 304 https://registry.npmjs.org/plop
+131 silly get cb [ 304,
+131 silly get   { date: 'Thu, 19 Jun 2025 06:22:22 GMT',
+131 silly get     connection: 'keep-alive',
+131 silly get     'cf-ray': '9520ee7ed8edb022-ATL',
+131 silly get     'cf-cache-status': 'HIT',
+131 silly get     'access-control-allow-origin': '*',
+131 silly get     age: '263',
+131 silly get     'cache-control': 'public, max-age=300',
+131 silly get     etag: '"39f1f8ed306181b4e306b7f65c51d85f"',
+131 silly get     'last-modified': 'Fri, 22 Dec 2023 22:37:57 GMT',
+131 silly get     vary: 'Accept-Encoding',
+131 silly get     'set-cookie': [ '_cfuvid=AByYfzQLumfoINiwczE7OYJd1ufKG1rNAbamaEqWno8-1750314142556-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None' ],
+131 silly get     server: 'cloudflare' } ]
+132 verbose etag https://registry.npmjs.org/plop from cache
+133 verbose get saving plop to /Users/gabelopez/.npm/registry.npmjs.org/plop/.cache.json
+134 http 304 https://registry.npmjs.org/case-anything
+135 silly get cb [ 304,
+135 silly get   { date: 'Thu, 19 Jun 2025 06:22:22 GMT',
+135 silly get     connection: 'keep-alive',
+135 silly get     'cf-ray': '9520ee7ede31bcd1-ATL',
+135 silly get     'cf-cache-status': 'HIT',
+135 silly get     'access-control-allow-origin': '*',
+135 silly get     age: '263',
+135 silly get     'cache-control': 'public, max-age=300',
+135 silly get     etag: '"9df12858d97ce343dc8b4970eb52114d"',
+135 silly get     'last-modified': 'Wed, 19 Feb 2025 19:07:57 GMT',
+135 silly get     vary: 'Accept-Encoding',
+135 silly get     'set-cookie': [ '_cfuvid=NFmAiOltMaYijs2LPtI3_ZLxJgJM0IvIXrSr_TKJ3KA-1750314142559-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None' ],
+135 silly get     server: 'cloudflare' } ]
+136 verbose etag https://registry.npmjs.org/case-anything from cache
+137 verbose get saving case-anything to /Users/gabelopez/.npm/registry.npmjs.org/case-anything/.cache.json
+138 http 304 https://registry.npmjs.org/eslint-plugin-import
+139 silly get cb [ 304,
+139 silly get   { date: 'Thu, 19 Jun 2025 06:22:22 GMT',
+139 silly get     connection: 'keep-alive',
+139 silly get     'cf-ray': '9520ee7eff4aa141-ATL',
+139 silly get     'cf-cache-status': 'HIT',
+139 silly get     'access-control-allow-origin': '*',
+139 silly get     age: '41',
+139 silly get     'cache-control': 'public, max-age=300',
+139 silly get     etag: '"59ec1704e7009eac45e19042249e642b"',
+139 silly get     'last-modified': 'Thu, 03 Oct 2024 10:28:54 GMT',
+139 silly get     vary: 'Accept-Encoding',
+139 silly get     'set-cookie': [ '_cfuvid=2Q8mG19o2sXzr0jVJeSXsyEoRRBl1lV_MMnzXf_Fvc4-1750314142567-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None' ],
+139 silly get     server: 'cloudflare' } ]
+140 verbose etag https://registry.npmjs.org/eslint-plugin-import from cache
+141 verbose get saving eslint-plugin-import to /Users/gabelopez/.npm/registry.npmjs.org/eslint-plugin-import/.cache.json
+142 http 304 https://registry.npmjs.org/eslint-config-airbnb-base
+143 silly get cb [ 304,
+143 silly get   { date: 'Thu, 19 Jun 2025 06:22:22 GMT',
+143 silly get     connection: 'keep-alive',
+143 silly get     'cf-ray': '9520ee7eed831377-ATL',
+143 silly get     'cf-cache-status': 'HIT',
+143 silly get     'access-control-allow-origin': '*',
+143 silly get     age: '273',
+143 silly get     'cache-control': 'public, max-age=300',
+143 silly get     etag: '"98451d77b75f135ddab596ca2876f7a1"',
+143 silly get     'last-modified': 'Fri, 08 Nov 2024 00:35:05 GMT',
+143 silly get     vary: 'Accept-Encoding',
+143 silly get     'set-cookie': [ '_cfuvid=TgPJ6lQqd3n57ibRKt92uX4gCyueduBd0akFp5AGees-1750314142568-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None' ],
+143 silly get     server: 'cloudflare' } ]
+144 verbose etag https://registry.npmjs.org/eslint-config-airbnb-base from cache
+145 verbose get saving eslint-config-airbnb-base to /Users/gabelopez/.npm/registry.npmjs.org/eslint-config-airbnb-base/.cache.json
+146 http 304 https://registry.npmjs.org/eslint
+147 silly get cb [ 304,
+147 silly get   { date: 'Thu, 19 Jun 2025 06:22:22 GMT',
+147 silly get     connection: 'keep-alive',
+147 silly get     'cf-ray': '9520ee7ee9ec137d-ATL',
+147 silly get     'cf-cache-status': 'HIT',
+147 silly get     'access-control-allow-origin': '*',
+147 silly get     age: '150',
+147 silly get     'cache-control': 'public, max-age=300',
+147 silly get     etag: '"4837ed50983373a1002beb3d51074df0"',
+147 silly get     'last-modified': 'Fri, 13 Jun 2025 17:33:12 GMT',
+147 silly get     vary: 'Accept-Encoding',
+147 silly get     'set-cookie': [ '_cfuvid=2XBYBGiZXOEjqKAZ.EnX86H6E8hb1gOcsg9yBa6.Xeg-1750314142570-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None' ],
+147 silly get     server: 'cloudflare' } ]
+148 verbose etag https://registry.npmjs.org/eslint from cache
+149 verbose get saving eslint to /Users/gabelopez/.npm/registry.npmjs.org/eslint/.cache.json
+150 http 304 https://registry.npmjs.org/jest
+151 silly get cb [ 304,
+151 silly get   { date: 'Thu, 19 Jun 2025 06:22:22 GMT',
+151 silly get     connection: 'keep-alive',
+151 silly get     'cf-ray': '9520ee7efee412df-ATL',
+151 silly get     'cf-cache-status': 'HIT',
+151 silly get     'access-control-allow-origin': '*',
+151 silly get     age: '106',
+151 silly get     'cache-control': 'public, max-age=300',
+151 silly get     etag: '"97e2d8f4bc262e5aab8333b60f824873"',
+151 silly get     'last-modified': 'Wed, 18 Jun 2025 22:32:01 GMT',
+151 silly get     vary: 'Accept-Encoding',
+151 silly get     'set-cookie': [ '_cfuvid=GCRHx5hQA5n6zLEDGz3Q0B_YN1GOFyXFttuZTvne4ag-1750314142588-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None' ],
+151 silly get     server: 'cloudflare' } ]
+152 verbose etag https://registry.npmjs.org/jest from cache
+153 verbose get saving jest to /Users/gabelopez/.npm/registry.npmjs.org/jest/.cache.json
+154 http 304 https://registry.npmjs.org/jest-cli
+155 silly get cb [ 304,
+155 silly get   { date: 'Thu, 19 Jun 2025 06:22:22 GMT',
+155 silly get     connection: 'keep-alive',
+155 silly get     'cf-ray': '9520ee7efa8a6a7b-ATL',
+155 silly get     'cf-cache-status': 'HIT',
+155 silly get     'access-control-allow-origin': '*',
+155 silly get     age: '71',
+155 silly get     'cache-control': 'public, max-age=300',
+155 silly get     etag: '"a44f39aba5b8dfa9e94815ecc36d2e85"',
+155 silly get     'last-modified': 'Wed, 18 Jun 2025 22:31:58 GMT',
+155 silly get     vary: 'Accept-Encoding',
+155 silly get     'set-cookie': [ '_cfuvid=U5VOYCExWMgfNcdHaYxUQbd0qBcIS2XRK6.bCGD4Flw-1750314142591-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None' ],
+155 silly get     server: 'cloudflare' } ]
+156 verbose etag https://registry.npmjs.org/jest-cli from cache
+157 verbose get saving jest-cli to /Users/gabelopez/.npm/registry.npmjs.org/jest-cli/.cache.json
+158 silly addNameRange number 2 { name: 'plop', range: '>=4.0.1 <5.0.0', hasData: true }
+159 silly addNameRange versions [ 'plop',
+159 silly addNameRange   [ '0.1.0',
+159 silly addNameRange     '0.1.2',
+159 silly addNameRange     '0.1.3',
+159 silly addNameRange     '0.2.0',
+159 silly addNameRange     '0.2.1',
+159 silly addNameRange     '0.2.2',
+159 silly addNameRange     '0.2.3',
+159 silly addNameRange     '0.2.4',
+159 silly addNameRange     '1.0.0',
+159 silly addNameRange     '1.0.1',
+159 silly addNameRange     '1.1.0',
+159 silly addNameRange     '1.2.0',
+159 silly addNameRange     '1.3.0',
+159 silly addNameRange     '1.4.0',
+159 silly addNameRange     '1.4.1',
+159 silly addNameRange     '1.5.0',
+159 silly addNameRange     '1.6.0',
+159 silly addNameRange     '1.7.0',
+159 silly addNameRange     '1.7.1' ] ]
+160 silly addNameRange number 2 { name: 'case-anything',
+160 silly addNameRange   range: '>=2.1.13 <3.0.0',
+160 silly addNameRange   hasData: true }
+161 silly addNameRange versions [ 'case-anything',
+161 silly addNameRange   [ '0.0.0',
+161 silly addNameRange     '0.0.1',
+161 silly addNameRange     '0.0.2',
+161 silly addNameRange     '0.1.0',
+161 silly addNameRange     '0.2.0',
+161 silly addNameRange     '0.3.0',
+161 silly addNameRange     '0.3.1',
+161 silly addNameRange     '1.0.0',
+161 silly addNameRange     '1.0.1',
+161 silly addNameRange     '1.0.2',
+161 silly addNameRange     '1.1.0',
+161 silly addNameRange     '1.1.1',
+161 silly addNameRange     '1.1.2',
+161 silly addNameRange     '1.1.3',
+161 silly addNameRange     '1.1.4',
+161 silly addNameRange     '1.1.5',
+161 silly addNameRange     '2.1.7' ] ]
+162 silly addNameRange number 2 { name: 'eslint-config-airbnb-base',
+162 silly addNameRange   range: '>=15.0.0 <16.0.0',
+162 silly addNameRange   hasData: true }
+163 silly addNameRange versions [ 'eslint-config-airbnb-base',
+163 silly addNameRange   [ '1.0.0',
+163 silly addNameRange     '1.0.1',
+163 silly addNameRange     '1.0.2',
+163 silly addNameRange     '1.0.3',
+163 silly addNameRange     '1.0.4',
+163 silly addNameRange     '2.0.0',
+163 silly addNameRange     '3.0.0',
+163 silly addNameRange     '3.0.1' ] ]
+164 silly addNameRange number 2 { name: 'eslint-plugin-import',
+164 silly addNameRange   range: '>=2.28.1 <3.0.0',
+164 silly addNameRange   hasData: true }
+165 silly addNameRange versions [ 'eslint-plugin-import',
+165 silly addNameRange   [ '0.3.0',
+165 silly addNameRange     '0.3.2',
+165 silly addNameRange     '0.3.3',
+165 silly addNameRange     '0.3.4',
+165 silly addNameRange     '0.3.5',
+165 silly addNameRange     '0.3.6',
+165 silly addNameRange     '0.3.8',
+165 silly addNameRange     '0.3.9',
+165 silly addNameRange     '0.3.10',
+165 silly addNameRange     '0.3.11',
+165 silly addNameRange     '0.3.12',
+165 silly addNameRange     '0.3.13',
+165 silly addNameRange     '0.4.0',
+165 silly addNameRange     '0.4.1',
+165 silly addNameRange     '0.4.2',
+165 silly addNameRange     '0.4.3',
+165 silly addNameRange     '0.4.4',
+165 silly addNameRange     '0.4.5',
+165 silly addNameRange     '0.5.1',
+165 silly addNameRange     '0.5.2',
+165 silly addNameRange     '0.6.0',
+165 silly addNameRange     '0.7.0',
+165 silly addNameRange     '0.7.1',
+165 silly addNameRange     '0.7.2',
+165 silly addNameRange     '0.7.3',
+165 silly addNameRange     '0.7.4',
+165 silly addNameRange     '0.7.5',
+165 silly addNameRange     '0.7.7',
+165 silly addNameRange     '0.7.8',
+165 silly addNameRange     '0.7.9',
+165 silly addNameRange     '0.8.0',
+165 silly addNameRange     '0.8.1',
+165 silly addNameRange     '0.9.1',
+165 silly addNameRange     '0.10.0',
+165 silly addNameRange     '0.10.1',
+165 silly addNameRange     '0.11.0',
+165 silly addNameRange     '0.12.0',
+165 silly addNameRange     '0.12.1',
+165 silly addNameRange     '0.13.0',
+165 silly addNameRange     '1.0.0-beta.0',
+165 silly addNameRange     '1.0.0',
+165 silly addNameRange     '1.0.1',
+165 silly addNameRange     '1.0.2',
+165 silly addNameRange     '1.0.3',
+165 silly addNameRange     '1.0.4',
+165 silly addNameRange     '1.1.0',
+165 silly addNameRange     '1.2.0',
+165 silly addNameRange     '1.3.0',
+165 silly addNameRange     '1.4.0',
+165 silly addNameRange     '1.5.0',
+165 silly addNameRange     '1.6.0',
+165 silly addNameRange     '1.6.1',
+165 silly addNameRange     '1.7.0',
+165 silly addNameRange     '1.8.0',
+165 silly addNameRange     '1.8.1',
+165 silly addNameRange     '1.9.0',
+165 silly addNameRange     '1.9.1',
+165 silly addNameRange     '1.9.2',
+165 silly addNameRange     '1.10.0',
+165 silly addNameRange     '1.10.2',
+165 silly addNameRange     '1.10.3',
+165 silly addNameRange     '1.11.0',
+165 silly addNameRange     '1.11.1',
+165 silly addNameRange     '1.12.0',
+165 silly addNameRange     '1.13.0',
+165 silly addNameRange     '1.14.0',
+165 silly addNameRange     '1.15.0',
+165 silly addNameRange     '1.16.0' ] ]
+166 silly addNameRange number 2 { name: 'jest-cli', range: '>=29.6.4 <30.0.0', hasData: true }
+167 silly addNameRange versions [ 'jest-cli',
+167 silly addNameRange   [ '0.0.2-pre',
+167 silly addNameRange     '0.0.3-pre',
+167 silly addNameRange     '0.0.4-pre',
+167 silly addNameRange     '0.0.5-pre',
+167 silly addNameRange     '0.0.6-pre',
+167 silly addNameRange     '0.0.7-pre',
+167 silly addNameRange     '0.0.8-pre',
+167 silly addNameRange     '0.0.9-pre',
+167 silly addNameRange     '0.0.10-pre',
+167 silly addNameRange     '0.1.0',
+167 silly addNameRange     '0.1.1',
+167 silly addNameRange     '0.1.2',
+167 silly addNameRange     '0.1.3',
+167 silly addNameRange     '0.1.4',
+167 silly addNameRange     '0.1.5',
+167 silly addNameRange     '0.1.6',
+167 silly addNameRange     '0.1.7',
+167 silly addNameRange     '0.1.8',
+167 silly addNameRange     '0.5.0',
+167 silly addNameRange     '0.5.1',
+167 silly addNameRange     '0.5.2',
+167 silly addNameRange     '0.5.3',
+167 silly addNameRange     '0.5.4',
+167 silly addNameRange     '0.5.5',
+167 silly addNameRange     '0.5.6',
+167 silly addNameRange     '0.5.7',
+167 silly addNameRange     '0.5.8',
+167 silly addNameRange     '0.5.10',
+167 silly addNameRange     '0.6.0' ] ]
+168 silly addNameRange number 2 { name: 'jest', range: '>=29.6.4 <30.0.0', hasData: true }
+169 silly addNameRange versions [ 'jest',
+169 silly addNameRange   [ '0.0.6',
+169 silly addNameRange     '0.0.7',
+169 silly addNameRange     '0.0.61',
+169 silly addNameRange     '0.0.71',
+169 silly addNameRange     '0.0.72',
+169 silly addNameRange     '0.0.73',
+169 silly addNameRange     '0.0.74',
+169 silly addNameRange     '0.0.75',
+169 silly addNameRange     '0.0.80',
+169 silly addNameRange     '0.0.81',
+169 silly addNameRange     '0.0.76',
+169 silly addNameRange     '0.0.78',
+169 silly addNameRange     '0.0.79',
+169 silly addNameRange     '0.0.82',
+169 silly addNameRange     '0.0.83',
+169 silly addNameRange     '0.0.84',
+169 silly addNameRange     '0.0.85',
+169 silly addNameRange     '0.0.86',
+169 silly addNameRange     '0.0.87',
+169 silly addNameRange     '0.0.88',
+169 silly addNameRange     '0.0.89',
+169 silly addNameRange     '0.0.90',
+169 silly addNameRange     '0.0.91',
+169 silly addNameRange     '0.0.92',
+169 silly addNameRange     '0.0.93',
+169 silly addNameRange     '0.0.94',
+169 silly addNameRange     '0.0.95',
+169 silly addNameRange     '0.0.96',
+169 silly addNameRange     '0.0.97',
+169 silly addNameRange     '0.0.98',
+169 silly addNameRange     '0.0.99',
+169 silly addNameRange     '0.1.0',
+169 silly addNameRange     '0.1.1',
+169 silly addNameRange     '0.1.2',
+169 silly addNameRange     '0.1.21',
+169 silly addNameRange     '0.1.22',
+169 silly addNameRange     '0.1.30',
+169 silly addNameRange     '0.1.31',
+169 silly addNameRange     '0.1.32',
+169 silly addNameRange     '0.1.33',
+169 silly addNameRange     '0.1.34',
+169 silly addNameRange     '0.1.35',
+169 silly addNameRange     '0.1.37',
+169 silly addNameRange     '0.1.39',
+169 silly addNameRange     '0.1.40' ] ]
+170 silly addNameRange number 2 { name: 'eslint', range: '>=8.47.0 <9.0.0', hasData: true }
+171 silly addNameRange versions [ 'eslint',
+171 silly addNameRange   [ '0.0.4',
+171 silly addNameRange     '0.0.5',
+171 silly addNameRange     '0.0.6',
+171 silly addNameRange     '0.0.7',
+171 silly addNameRange     '0.1.0-dev',
+171 silly addNameRange     '0.1.0',
+171 silly addNameRange     '0.1.1',
+171 silly addNameRange     '0.1.2',
+171 silly addNameRange     '0.1.3',
+171 silly addNameRange     '0.1.4',
+171 silly addNameRange     '0.2.0',
+171 silly addNameRange     '0.3.0',
+171 silly addNameRange     '0.4.0',
+171 silly addNameRange     '0.4.1',
+171 silly addNameRange     '0.4.2',
+171 silly addNameRange     '0.4.3',
+171 silly addNameRange     '0.4.4',
+171 silly addNameRange     '0.4.5',
+171 silly addNameRange     '0.5.0',
+171 silly addNameRange     '0.5.1',
+171 silly addNameRange     '0.6.0',
+171 silly addNameRange     '0.6.1',
+171 silly addNameRange     '0.6.2',
+171 silly addNameRange     '0.7.1',
+171 silly addNameRange     '0.7.2',
+171 silly addNameRange     '0.7.3',
+171 silly addNameRange     '0.7.4',
+171 silly addNameRange     '0.8.0',
+171 silly addNameRange     '0.8.1',
+171 silly addNameRange     '0.8.2',
+171 silly addNameRange     '0.9.0',
+171 silly addNameRange     '0.9.1',
+171 silly addNameRange     '0.9.2',
+171 silly addNameRange     '0.10.0-alpha',
+171 silly addNameRange     '0.10.0-alpha.1',
+171 silly addNameRange     '0.10.0-alpha.2',
+171 silly addNameRange     '0.10.0',
+171 silly addNameRange     '0.11.0-alpha.0',
+171 silly addNameRange     '0.10.1',
+171 silly addNameRange     '0.10.2',
+171 silly addNameRange     '0.11.0',
+171 silly addNameRange     '0.12.0',
+171 silly addNameRange     '0.13.0',
+171 silly addNameRange     '0.14.0',
+171 silly addNameRange     '0.14.1',
+171 silly addNameRange     '0.15.0',
+171 silly addNameRange     '0.15.1',
+171 silly addNameRange     '0.16.0',
+171 silly addNameRange     '0.16.1',
+171 silly addNameRange     '0.16.2',
+171 silly addNameRange     '0.17.0',
+171 silly addNameRange     '0.17.1',
+171 silly addNameRange     '0.18.0',
+171 silly addNameRange     '0.19.0',
+171 silly addNameRange     '0.20.0',
+171 silly addNameRange     '0.21.0',
+171 silly addNameRange     '0.21.1',
+171 silly addNameRange     '0.21.2',
+171 silly addNameRange     '0.22.0',
+171 silly addNameRange     '0.22.1',
+171 silly addNameRange     '0.23.0',
+171 silly addNameRange     '0.24.0',
+171 silly addNameRange     '0.24.1',
+171 silly addNameRange     '1.0.0-rc-1',
+171 silly addNameRange     '1.0.0-rc-2',
+171 silly addNameRange     '1.0.0-rc-3',
+171 silly addNameRange     '1.0.0',
+171 silly addNameRange     '1.1.0',
+171 silly addNameRange     '1.2.0',
+171 silly addNameRange     '1.2.1',
+171 silly addNameRange     '1.3.0',
+171 silly addNameRange     '1.3.1',
+171 silly addNameRange     '1.4.0',
+171 silly addNameRange     '1.4.1',
+171 silly addNameRange     '1.4.2',
+171 silly addNameRange     '1.4.3',
+171 silly addNameRange     '1.5.0',
+171 silly addNameRange     '1.5.1',
+171 silly addNameRange     '1.6.0',
+171 silly addNameRange     '1.7.0',
+171 silly addNameRange     '1.7.1',
+171 silly addNameRange     '1.7.2',
+171 silly addNameRange     '1.7.3',
+171 silly addNameRange     '1.8.0',
+171 silly addNameRange     '1.9.0',
+171 silly addNameRange     '1.10.0',
+171 silly addNameRange     '1.10.1',
+171 silly addNameRange     '1.10.2',
+171 silly addNameRange     '1.10.3',
+171 silly addNameRange     '2.0.0-alpha-1',
+171 silly addNameRange     '2.0.0-alpha-2',
+171 silly addNameRange     '2.0.0-beta.1',
+171 silly addNameRange     '2.0.0-beta.2',
+171 silly addNameRange     '2.0.0-beta.3',
+171 silly addNameRange     '2.0.0-rc.0',
+171 silly addNameRange     '2.0.0-rc.1',
+171 silly addNameRange     '2.0.0',
+171 silly addNameRange     '2.1.0',
+171 silly addNameRange     '2.2.0',
+171 silly addNameRange     '2.3.0',
+171 silly addNameRange     '2.4.0',
+171 silly addNameRange     '2.5.0',
+171 silly addNameRange     '2.5.1',
+171 silly addNameRange     '2.5.2',
+171 silly addNameRange     '2.5.3',
+171 silly addNameRange     '2.6.0',
+171 silly addNameRange     '2.7.0',
+171 silly addNameRange     '2.8.0',
+171 silly addNameRange     '2.9.0',
+171 silly addNameRange     '2.10.0',
+171 silly addNameRange     '2.10.1',
+171 silly addNameRange     '2.10.2',
+171 silly addNameRange     '2.11.0',
+171 silly addNameRange     '2.11.1',
+171 silly addNameRange     '2.12.0',
+171 silly addNameRange     '2.13.0',
+171 silly addNameRange     '2.13.1' ] ]
+172 verbose stack Error: No compatible version found: plop@'>=4.0.1 <5.0.0'
+172 verbose stack Valid install targets:
+172 verbose stack ["0.1.0","0.1.2","0.1.3","0.2.0","0.2.1","0.2.2","0.2.3","0.2.4","1.0.0","1.0.1","1.1.0","1.2.0","1.3.0","1.4.0","1.4.1","1.5.0","1.6.0","1.7.0","1.7.1"]
+172 verbose stack
+172 verbose stack     at installTargetsError (/Users/gabelopez/.nvm/versions/io.js/v3.0.0/lib/node_modules/npm/lib/cache/add-named.js:278:12)
+172 verbose stack     at next (/Users/gabelopez/.nvm/versions/io.js/v3.0.0/lib/node_modules/npm/lib/cache/add-named.js:256:19)
+172 verbose stack     at setData (/Users/gabelopez/.nvm/versions/io.js/v3.0.0/lib/node_modules/npm/lib/cache/add-named.js:230:5)
+172 verbose stack     at RES (/Users/gabelopez/.nvm/versions/io.js/v3.0.0/lib/node_modules/npm/node_modules/inflight/inflight.js:23:14)
+172 verbose stack     at f (/Users/gabelopez/.nvm/versions/io.js/v3.0.0/lib/node_modules/npm/node_modules/once/once.js:17:25)
+172 verbose stack     at fixName (/Users/gabelopez/.nvm/versions/io.js/v3.0.0/lib/node_modules/npm/lib/cache/add-named.js:29:5)
+172 verbose stack     at saved (/Users/gabelopez/.nvm/versions/io.js/v3.0.0/lib/node_modules/npm/lib/cache/caching-client.js:173:7)
+172 verbose stack     at /Users/gabelopez/.nvm/versions/io.js/v3.0.0/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+172 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+173 verbose cwd /Users/gabelopez/Desktop/OdinProject/javascript-exercises/01_helloWorld
+174 error Darwin 24.5.0
+175 error argv "/Users/gabelopez/.nvm/versions/io.js/v3.0.0/bin/iojs" "/Users/gabelopez/.nvm/versions/io.js/v3.0.0/bin/npm" "install"
+176 error node v3.0.0
+177 error npm  v2.13.3
+178 error code ETARGET
+179 error notarget No compatible version found: plop@'>=4.0.1 <5.0.0'
+179 error notarget Valid install targets:
+179 error notarget ["0.1.0","0.1.2","0.1.3","0.2.0","0.2.1","0.2.2","0.2.3","0.2.4","1.0.0","1.0.1","1.1.0","1.2.0","1.3.0","1.4.0","1.4.1","1.5.0","1.6.0","1.7.0","1.7.1"]
+179 error notarget
+179 error notarget This is most likely not a problem with npm itself.
+179 error notarget In most cases you or one of your dependencies are requesting
+179 error notarget a package version that doesn't exist.
+179 error notarget
+179 error notarget It was specified as a dependency of 'javascript-exercises'
+180 verbose exit [ 1, true ]
